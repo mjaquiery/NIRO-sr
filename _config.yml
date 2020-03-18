@@ -3,18 +3,23 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: NIRO Systematic Review
 email:
-description: A simple and awesome blog theme powered by jekyll.
+description: A checklist for conducting Systematic Reviews in a Non-Interventionist, Reproducibile and Open way.
 url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+keywords:
+  - "NIRO"
+  - "Systematic review"
+  - "Non-Interventionist"
+  - "Reproducible"
+  - "Open"
 
 #
 ###################################
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Europe/London
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -33,10 +38,10 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  name: NIRO Systematic Review
+  avatar: logo.svg
+  job: "Non-Interventionist, Reproducibile and Open Systematic Review"
+  bio: ""
   email:
   disqus-shortname:
   twitter: #username

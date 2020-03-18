@@ -105,10 +105,21 @@ a {
 // Footer
 footer {
   text-align: center;
-  padding: 3em 0;
-  .heart-icon {
-    color: $danger;
-    text-shadow: 0 0 5px $white, 0 0 10px $danger;
+  position: fixed;
+  top: 0;
+  color: gainsboro;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  padding: 0.5em;
+  @include media-query($medium-screen) {
+    top: unset;
+    bottom: 0;
+    width: inherit;
+  }
+  a {
+    font-weight: bold;
+    color: gainsboro;
   }
 }
 .related-articles {
