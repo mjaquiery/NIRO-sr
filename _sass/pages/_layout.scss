@@ -83,12 +83,8 @@
   z-index: 1000;
   background-color: $background-color;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: auto;
+  text-align: center;
   @include media-query($medium-screen) {
     display: none;
   }

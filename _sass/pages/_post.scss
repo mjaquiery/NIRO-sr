@@ -2,6 +2,7 @@
 .post-listing {
   background-color: $white;
   position: absolute;
+  overflow-x: scroll;
   top: 400px;
   z-index: 233;
   width: 100%;
