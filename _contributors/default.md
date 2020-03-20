@@ -1,5 +1,6 @@
 ---
-name: default
+# your full display name
+name: default 
 # links
 orcid: 0000-0003-3599-1580
 github: mjaquiery
