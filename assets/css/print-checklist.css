@@ -1,0 +1,23 @@
+body > .row > .col:first-of-type {
+    display: none;
+}
+
+body > .row > .col:last-of-type {
+    width: 100%;
+}
+
+.post-listing {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+.checklist {
+    margin: 0 0 0 1em;
+}
+
+.checklist > section.section {
+    border-left: 4px solid var(--border-colour)
+}
+
