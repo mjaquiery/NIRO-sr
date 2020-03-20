@@ -43,9 +43,12 @@
   {% endif %}
   <title>{{ title }}</title>
 
+  <!-- FontAwesome -->
+  <script src="/assets/js/all.min.js" type="text/javascript" defer></script>
+
   <!-- CSS files -->
-  <link rel="stylesheet" href="{{ site.url }}/assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | prepend: site.url }}" />

@@ -39,7 +39,7 @@ function unpackChecklist(checklist) {
                 item.classList.add(
                     'post',
                     'item',
-                    i.optional? 'optional' : 'mandatory'
+                    i.necessity
                 );
                 item.innerHTML = `
 <header class="post-title ${section}">

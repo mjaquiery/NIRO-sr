@@ -47,6 +47,16 @@
       "name": "Systematic review"
     }
   },
+  "necessities": {
+    "mandatory": {
+      "name": "Mandatory",
+      "description": "Where relevant, this information is indispensable to a transparent and open review. If irrelevant, it should be noted why it does not apply."
+    },
+    "optional": {
+      "name": "Optional",
+      "description": "This information is useful when relevant, but not required for a transparent and open review."
+    }
+  },
   "items": [
     {
       "name": "Describe the topic",
@@ -55,7 +65,8 @@
       "content": {
         "general": "Please give a short description of your review topic."
       },
-      "rationale": "A short description enables readers to ascertain whether the framework for the project has shifted substantially between the protocol document and the systematic review."
+      "rationale": "A short description enables readers to ascertain whether the framework for the project has shifted substantially between the protocol document and the systematic review.",
+      "necessity": "mandatory"
     },
     {
       "name": "Statement of need",
@@ -64,7 +75,8 @@
       "content": {
         "general": "Why is the review needed?\n* No previous review\n* Update to previous review\n* Previous reviews are flawed"
       },
-      "rationale": "A systematic review fits within the context of a literature of reviews, and its place in relation to existing reviews should be clarified."
+      "rationale": "A systematic review fits within the context of a literature of reviews, and its place in relation to existing reviews should be clarified.",
+      "necessity": "mandatory"
     },
     {
       "name": "Justification",
@@ -73,7 +85,8 @@
       "content": {
         "general": "Please provide a rationale for the review. Explain how the review will support the field of research and how the review will fit into the progress of research in the field."
       },
-      "rationale": "A systematic review is a substantial undertaking, and thus a clear justification is important before beginning."
+      "rationale": "A systematic review is a substantial undertaking, and thus a clear justification is important before beginning.",
+      "necessity": "mandatory"
     },
     {
       "name": "Identify the research question",
@@ -82,7 +95,8 @@
       "content": {
         "general": "State the primary review question. Make sure it is clearly defined and includes:\n* The primary effect of interest\n* The independent variable(s) of interest\n* The population of interest (e.g. general public, children, clinical patients)\n* _Covariates of interest_"
       },
-      "rationale": "Identifying the primary review question before embarking on review keeps the project manageable and provides clarity for readers comparing the review to its protocol declaration."
+      "rationale": "Identifying the primary review question before embarking on review keeps the project manageable and provides clarity for readers comparing the review to its protocol declaration.",
+      "necessity": "mandatory"
     },
     {
       "name": "Identify the secondary questions",
@@ -92,7 +106,7 @@
         "general": "If applicable, identify secondary questions such as sources of heterogeneity within identified studies."
       },
       "rationale": "Secondary questions may arise during the process of systematic review. Declaring secondary questions identified before review begins allows them to be differentiated from exploratory questions prompted by the review process.",
-      "optional": true
+      "necessity": "optional"
     },
     {
       "name": "Statement of hypothesis",
@@ -101,7 +115,8 @@
       "content": {
         "general": "Clearly state the hypothesis for each question, and specify if the anticipated effect has a directionality (i.e. a one-tailed versus two-tailed hypothesis)."
       },
-      "rationale": "Stating hypotheses clearly before searches are made helps to ensure that tests of those hypotheses are more adequately representative of true effects."
+      "rationale": "Stating hypotheses clearly before searches are made helps to ensure that tests of those hypotheses are more adequately representative of true effects.",
+      "necessity": "mandatory"
     },
     {
       "name": "Specify search strategy",
@@ -110,7 +125,8 @@
       "content": {
         "general": "Please supply your full search strategy here, including the exact search strings for all databases and the dates the search was conducted. Ensure this includes: \n* Justification of the keywords selected (consulting experts, technological aids such as the R package [litsearchr](https://github.com/elizagrames/litsearchr))\n* All keywords including boolean operators\n* All limits (if any) used when performing the search (e.g. set to only include full text articles, or peer reviewed articles etc)\n* The databases searched (including URLs of the interfaces used and justifications). Note that the same platform (e.g. Web of Science) may search different databases depending on Institutional subscription (Dallas et al, 2018), so specify the actual databases.\n* Languages searched (including details of translations or interpretations)\n* Dates searched (e.g. Jan 1990-Oct 2019)\n* Whether reference lists will be searched in order to find more relevant articles. Specify what reference lists e.g. all reference lists in the papers that passed screening for relevance in the abstracts. \n* Strategy for identifying retracted papers"
       },
-      "rationale": "The search strategy determines the raw ingredients which enter the systematic review process. Ensuring that the search strategy is reproducibile requires that there is a clear record of the specific databases searched and the terms used to search them."
+      "rationale": "The search strategy determines the raw ingredients which enter the systematic review process. Ensuring that the search strategy is reproducibile requires that there is a clear record of the specific databases searched and the terms used to search them.",
+      "necessity": "mandatory"
     },
     {
       "name": "Grey literature search strategy",
@@ -120,7 +136,7 @@
         "general": "_Grey literature_ is work that is not published in conventional outlets. You should state which approaches you will take to find this kind of literature, perhaps including:\n* Dissertations and theses\n* Pre-prints (e.g. [arXiv.org](https://arXiv.org/))\n* Government reports\n* Presentations and posters from scientific meetings\n* Unpublished manuscripts"
       },
       "rationale": "Grey literature can have a large effect in overcoming publication bias, so it is important to have a clear plan for whether and how a grey literature search will be conducted.",
-      "optional": true
+      "necessity": "optional"
     },
     {
       "name": "Search strategy relevance",
@@ -129,7 +145,8 @@
       "content": {
         "general": "Confirm that your search strategy is clearly aligned with your primary review question."
       },
-      "rationale": "It is easy to find that the complexities of systematic review design mean that the original question becomes sidelined. This step avoids wasting time on a review which will not answer the desired question."
+      "rationale": "It is easy to find that the complexities of systematic review design mean that the original question becomes sidelined. This step avoids wasting time on a review which will not answer the desired question.",
+      "necessity": "mandatory"
     },
     {
       "name": "Repetition schedule",
@@ -138,7 +155,8 @@
       "content": {
         "general": "It is good practice to update searches at least every two years. If you plan to repeat your search, detail the repetition schedule here."
       },
-      "rationale": "New contributions arrive in the literature continually, and occasionally papers may be removed from the literature by retraction. To ensure the conclusions of the systematic review remain relevant across this shifting landscape, reviews should be updated reasonably frequently."
+      "rationale": "New contributions arrive in the literature continually, and occasionally papers may be removed from the literature by retraction. To ensure the conclusions of the systematic review remain relevant across this shifting landscape, reviews should be updated reasonably frequently.",
+      "necessity": "mandatory"
     },
     {
       "name": "Eligibility criteria",
@@ -147,7 +165,8 @@
       "content": {
         "general": "Please clearly define the eligibility and inclusion criteria of the studies. Use the following for guidance:\n* Study Design (e.g. cross-sectional, observational (measured variables at one time-point), cross-sectional (measured variables with different individuals at different ages/timepoints), longitudinal (same individuals followed over time; could be prospective or retrospective), experimental intervention (examining effect of specific manipulation); .intervention (examining effect of intervention designed to alter behaviour)\n* Detailed description of participant groups of interest to match the aims (e.g. population of adults with social anxiety defined as a score of 50 or more on the Liebowitz Social Anxiety Scale, elderly adults over 80 years old in the general population) including any other relevant participant characteristics\n* Method of data collection (e.g. lab experiment, questionnaires, any specific requirements to assure that the method is comparable across the studies)\n* Independent variable described in a standardised form (e.g. task difficulty reflected by different types of trials, participant anxiety levels reflected by questionnaire scores).\n* The main effect of interest (dependent variable) described in a standardised form (e.g. percentage of accurate trials to reflect task performance, overall score on a self-perception questionnaire etc.) and whether this is within-groups, between-groups, or both"
       },
-      "rationale": ""
+      "rationale": "",
+      "necessity": "mandatory"
     },
     {
       "name": "Eligibility justification",
@@ -156,7 +175,8 @@
       "content": {
         "general": "Please justify your decisions above in accordance to your research question."
       },
-      "rationale": "Please explain how these decisions help to address your research question in an  objective way."
+      "rationale": "Please explain how these decisions help to address your research question in an  objective way.",
+      "necessity": "mandatory"
     },
     {
       "name": "Reviewers of abstracts",
@@ -165,7 +185,8 @@
       "content": {
         "general": "How many reviewers will screen the titles and abstracts of each search result?"
       },
-      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process and there should be enough overlap between the items that each reviewer screens in order to calculate consistency in decision-making."
+      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process and there should be enough overlap between the items that each reviewer screens in order to calculate consistency in decision-making.",
+      "necessity": "mandatory"
     },
     {
       "name": "Reviewers of full text",
@@ -174,7 +195,8 @@
       "content": {
         "general": "How many reviewers will screen the full text of each search result selected for inclusion? Describe how the reliability of the decisions will be assessed if only one reviewer will be involved."
       },
-      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process and there should be enough overlap between the items that each reviewer screens in order to calculate consistency in decision-making."
+      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process and there should be enough overlap between the items that each reviewer screens in order to calculate consistency in decision-making.",
+      "necessity": "mandatory"
     },
     {
       "name": "Disagreements between reviewers",
@@ -183,7 +205,8 @@
       "content": {
         "general": "How will disagreements between reviewers on screening decisions be resolved?"
       },
-      "rationale": ""
+      "rationale": "",
+      "necessity": "mandatory"
     },
     {
       "name": "Extraction forms",
@@ -192,7 +215,8 @@
       "content": {
         "general": "Please provide the data extraction forms including all information to be extracted from each study. You can add it as a supplementary file within the pre-registration. The data you choose to extract may include:\n* Participant groups size and type (e.g. adult, children, general, clinical)\n* Study design\n* Methods of IV and DV collection\n* Covariates\n* Results\n* Other details used in data extraction"
       },
-      "rationale": ""
+      "rationale": "",
+      "necessity": "mandatory"
     },
     {
       "name": "Extraction justification",
@@ -201,7 +225,8 @@
       "content": {
         "general": "Please provide justification for the chosen data to be extracted in relation to your research question."
       },
-      "rationale": "Please explain how these decisions help to address your research question in an  objective way."
+      "rationale": "Please explain how these decisions help to address your research question in an  objective way.",
+      "necessity": "mandatory"
     },
     {
       "name": "Extraction reviewers",
@@ -210,7 +235,8 @@
       "content": {
         "general": "How many reviewers will conduct data extraction? Describe how the reliability of the decisions will be assessed if only one reviewer will be involved."
       },
-      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process and there should be enough overlap between the data that each reviewer extracts in order to calculate consistency."
+      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process and there should be enough overlap between the data that each reviewer extracts in order to calculate consistency.",
+      "necessity": "mandatory"
     },
     {
       "name": "Automated extraction",
@@ -220,7 +246,7 @@
         "general": "Alternatively to the above - if you are planning to use a data mining software, please describe in detail how you will extract this information, whether you have piloted this process and how reliable it is (e.g. sensitivity and specificity ratings for your search criteria)."
       },
       "rationale": "",
-      "optional": true
+      "necessity": "optional"
     },
     {
       "name": "Quality assessment",
@@ -229,7 +255,8 @@
       "content": {
         "general": "Please state how you will assess the risk of bias and/or methodological quality within the included studies. It is good practice to use an already existing, validated tool. Provide all the details about the tool used or a thorough description of any alternative methods of quality assessment (e.g. power analysis)."
       },
-      "rationale": ""
+      "rationale": "",
+      "necessity": "mandatory"
     },
     {
       "name": "Quality assessment reviewers",
@@ -238,7 +265,8 @@
       "content": {
         "general": "How many reviewers will assess the risk of bias and/or methodological quality of each study? Describe how the reliability of the decisions will be assessed if only one reviewer will be involved."
       },
-      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process and there should be enough overlap between the items that each reviewer scores in order to calculate consistency in decision-making."
+      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process and there should be enough overlap between the items that each reviewer scores in order to calculate consistency in decision-making.",
+      "necessity": "mandatory"
     },
     {
       "name": "Automated quality assessment",
@@ -248,7 +276,7 @@
         "general": "Alternatively to the above - if you are planning to use a data mining software, please describe in detail how you will extract this information, whether you have piloted this process and how reliable it is (e.g. sensitivity and specificity ratings for your search criteria)."
       },
       "rationale": "",
-      "optional": true
+      "necessity": "optional"
     },
     {
       "name": "Synthesis reviewers",
@@ -257,7 +285,8 @@
       "content": {
         "general": "How many reviewers will synthesise the results? Describe how the reliability of the decisions will be assessed if only one reviewer will be involved."
       },
-      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process."
+      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process.",
+      "necessity": "mandatory"
     },
     {
       "name": "Synthesis",
@@ -266,7 +295,8 @@
       "content": {
         "general": "How will the results be synthesised? Is there a planned meta-analysis?"
       },
-      "rationale": ""
+      "rationale": "",
+      "necessity": "mandatory"
     },
     {
       "name": "Weighting",
@@ -275,7 +305,8 @@
       "content": {
         "general": "How are you planning to weigh the evidence of the included studies based on their risk of bias rating?"
       },
-      "rationale": ""
+      "rationale": "",
+      "necessity": "mandatory"
     },
     {
       "name": "Summarizing",
@@ -284,7 +315,8 @@
       "content": {
         "general": "How are you going to assess the strength of the body of evidence? If using an existing tool such as GRADE, please specify if and how it will be adapted to suit your research question."
       },
-      "rationale": ""
+      "rationale": "",
+      "necessity": "mandatory"
     },
     {
       "name": "Protocol registration stage",
@@ -293,7 +325,8 @@
       "content": {
         "general": "At what stage of the review are you at the time of submitting this preregistration (not mutually exclusive)?\n* Scoping searches completed\n* Final search completed\n* Any other stage after or during data extraction with justification for why the pre-registration was not completed earlier."
       },
-      "rationale": ""
+      "rationale": "",
+      "necessity": "mandatory"
     },
     {
       "name": "Deviations from protocol",
@@ -303,7 +336,7 @@
         "general": "If this is not the first pre-registration or the pre-registration happened after data extraction, have there been any changes or updates made to the protocol since the first preregistration? Please include details, justifications, and dates of any changes."
       },
       "rationale": "",
-      "optional": true
+      "necessity": "optional"
     },
     {
       "name": "Protocol availability",
@@ -312,7 +345,8 @@
       "content": {
         "general": "The protocol should be hosted on a designated online platform with a link protected from expiration or deactivation e.g. [Open Science Framework](https://osf.io/)."
       },
-      "rationale": ""
+      "rationale": "",
+      "necessity": "mandatory"
     },
     {
       "name": "Include a descriptive title",
@@ -323,7 +357,8 @@
         "author": "Give your systematic review a descriptive title which clearly identifies the research question and the methodology (systematic review).",
         "reviewer": "The systematic review a should have a descriptive title which clearly identifies the research question and the methodology (systematic review)."
       },
-      "rationale": "Including information about the methodology in the title enables rapid identification of systematic reviews.\n\nThis can really help for projects compiling systematic reviews, and also for projects which need to exclude them such as meta analyses."
+      "rationale": "Including information about the methodology in the title enables rapid identification of systematic reviews.\n\nThis can really help for projects compiling systematic reviews, and also for projects which need to exclude them such as meta analyses.",
+      "necessity": "mandatory"
     },
     {
       "name": "Search syntax",
@@ -334,7 +369,8 @@
         "author": "Please include the full search strategy string from each database searched. This should be specified in the protocol.",
         "reviewer": "The systematic review should include the full search strategy string from each database searched. This should be specified in the protocol."
       },
-      "rationale": "Including the specific search string allows other researchers to fully reproduce the methodology, and allows reviewers to identify possible omissions such as alternate terms from adjacent fields."
+      "rationale": "Including the specific search string allows other researchers to fully reproduce the methodology, and allows reviewers to identify possible omissions such as alternate terms from adjacent fields.",
+      "necessity": "mandatory"
     },
     {
       "name": "Search date",
@@ -345,7 +381,8 @@
         "author": "State the date each database was searched. If multiple searches are conducted on a single database, dates should be included for all searches.",
         "reviewer": "The systematic review should include the date each database was searched. If multiple searches on a single database are mentioned, dates should be included for all searches."
       },
-      "rationale": "Including the search dates allows other researchers to determine which studies are likely to have been available at the time of review."
+      "rationale": "Including the search dates allows other researchers to determine which studies are likely to have been available at the time of review.",
+      "necessity": "mandatory"
     },
     {
       "name": "Grey literature",
@@ -356,7 +393,8 @@
         "author": "Give a summary of your attempts to obtain unpublished/inaccessible papers or additional materials and whether this was successful.",
         "reviewer": "The systematic review should include an explanation of how unpublished or inaccessible information was approached."
       },
-      "rationale": "Studies which have null results often remain unpublished [file drawer problem](https://en.wikipedia.org/wiki/Publication_bias), which can skew otherwise-balanced attempts to aggregate information. Some reviews attempt to combat this by contacting authors to ask for unpublished work, following up search results for conference posters and presentations, etc. This _grey literature_ search can help to redress publication bias."
+      "rationale": "Studies which have null results often remain unpublished [file drawer problem](https://en.wikipedia.org/wiki/Publication_bias), which can skew otherwise-balanced attempts to aggregate information. Some reviews attempt to combat this by contacting authors to ask for unpublished work, following up search results for conference posters and presentations, etc. This _grey literature_ search can help to redress publication bias.",
+      "necessity": "mandatory"
     }
   ]
 }

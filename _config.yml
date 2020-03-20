@@ -14,6 +14,9 @@ keywords:
   - "Reproducible"
   - "Open"
 
+collections:
+  - contributors
+
 #
 ###################################
 # Jekyll configuration
