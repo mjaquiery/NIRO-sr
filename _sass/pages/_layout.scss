@@ -84,6 +84,7 @@
   background-color: $background-color;
   position: fixed;
   margin: auto;
+  width: 100%;
   text-align: center;
   @include media-query($medium-screen) {
     display: none;
