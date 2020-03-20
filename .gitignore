@@ -6,3 +6,4 @@ _drafts
 .ruby-version
 Gemfile.lock
 .idea
+node_modules

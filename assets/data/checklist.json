@@ -1,0 +1,63 @@
+{
+  "title": "NIRO",
+  "type": "Checklist",
+  "keywords": [
+    "NIRO",
+    "checklist",
+    "Systematic review",
+    "reproducible",
+    "open",
+    "non-intervention"
+  ],
+  "description": "a checklist to allow reproducibile and open systematic review of non-intervention research",
+  "sections": {
+    "title": {
+      "name": "Title"
+    },
+    "search_strategy": {
+      "name": "Search strategy"
+    }
+  },
+  "items": [
+    {
+      "name": "Include a descriptive title",
+      "section": "title",
+      "content": {
+        "general": "A systematic review should have a descriptive title which clearly identifies the research question and the methodology (systematic review).",
+        "author": "Give your systematic review a descriptive title which clearly identifies the research question and the methodology (systematic review).",
+        "reviewer": "The systematic review a should have a descriptive title which clearly identifies the research question and the methodology (systematic review)."
+      },
+      "rationale": "Including information about the methodology in the title enables rapid identification of systematic reviews.\n\nThis can really help for projects compiling systematic reviews, and also for projects which need to exclude them such as meta analyses."
+    },
+    {
+      "name": "Search syntax",
+      "section": "search_strategy",
+      "content": {
+        "general": "A systematic review should include the full search strategy string from each database searched.",
+        "author": "Please include the full search strategy string from each database searched. This should be specified in the protocol.",
+        "reviewer": "The systematic review should include the full search strategy string from each database searched. This should be specified in the protocol."
+      },
+      "rationale": "Including the specific search string allows other researchers to fully reproduce the methodology, and allows reviewers to identify possible omissions such as alternate terms from adjacent fields."
+    },
+    {
+      "name": "Search date",
+      "section": "search_strategy",
+      "content": {
+        "general": "A systematic review should include the date the search was conducted for each database searched. If multiple searches are conducted on a single database, dates should be included for all searches.",
+        "author": "State the date each database was searched. If multiple searches are conducted on a single database, dates should be included for all searches.",
+        "reviewer": "The systematic review should include the date each database was searched. If multiple searches on a single database are mentioned, dates should be included for all searches."
+      },
+      "rationale": "Including the search dates allows other researchers to determine which studies are likely to have been available at the time of review."
+    },
+    {
+      "name": "Grey literature",
+      "section": "search_strategy",
+      "content": {
+        "general": "A systematic review should include an explanation of how unpublished or inaccessible information was approached. Was any attempt made to locate and access information which was not formally published in accessible locations?",
+        "author": "Give a summary of your attempts to obtain unpublished/inaccessible papers or additional materials and whether this was successful.",
+        "reviewer": "The systematic review should include an explanation of how unpublished or inaccessible information was approached."
+      },
+      "rationale": "Studies which have null results often remain unpublished [file drawer problem](https://en.wikipedia.org/wiki/Publication_bias), which can skew otherwise-balanced attempts to aggregate information. Some reviews attempt to combat this by contacting authors to ask for unpublished work, following up search results for conference posters and presentations, etc. This _grey literature_ search can help to redress publication bias."
+    }
+  ]
+}

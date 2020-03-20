@@ -1,0 +1,53 @@
+// Much of the styling is done by post styling, but we extend things here
+.checklist {
+  $title: rgb(253, 36, 74);
+  $search_strategy: rgb(69, 36, 253);
+  $backgroundFade: .05;
+
+  section {
+    margin: 0;
+  }
+
+  .section {
+    border-left: 2px solid;
+    border-left: 2px solid;
+    padding: 0 0 1em 1em;
+    margin: 0;
+  }
+  .item {
+    padding: .5em;
+    margin: .5em 0 .5em 0;
+    div {
+      margin-left: .5em;
+    }
+    span + p {
+      margin-left: .5em;
+    }
+  }
+
+  .title {
+    $colour: $title;
+    border-color: $colour;
+    @at-root .checklist > .title .item {
+      background-color: rgba($colour, $backgroundFade);
+      &:hover {
+        background-color: rgba($colour, $backgroundFade * 2);
+      }
+    }
+  }
+  .search_strategy {
+    $colour: $search_strategy;
+    border-color: $colour;
+    @at-root .checklist > .search_strategy .item {
+      background-color: rgba($colour, $backgroundFade);
+      &:hover {
+        background-color: rgba($colour, $backgroundFade * 2);
+      }
+    }
+  }
+
+  .who {
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+}
