@@ -37,6 +37,10 @@
       padding: 2px;
     }
   }
+  .contributions i,
+  .contributions svg {
+    color: gainsboro;
+  }
   .contributions i:hover, .contributions svg:hover {
     color: navy;
     & + .caption {
