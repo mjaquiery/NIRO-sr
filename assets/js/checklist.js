@@ -36,7 +36,11 @@ function unpackChecklist(checklist) {
         checklist.items.filter(i => i.section === section).forEach(
             (i, index) => {
                 const item = s.appendChild(document.createElement('section'));
-                item.classList.add('post', 'item');
+                item.classList.add(
+                    'post',
+                    'item',
+                    i.optional? 'optional' : 'mandatory'
+                );
                 item.innerHTML = `
 <header class="post-title ${section}">
 <h4>

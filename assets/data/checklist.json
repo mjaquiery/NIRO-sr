@@ -20,6 +20,21 @@
     "search_strategy": {
       "name": "Search strategy"
     },
+    "screening": {
+      "name": "Screening"
+    },
+    "data_extraction": {
+      "name": "Data extraction"
+    },
+    "quality_assessment": {
+      "name": "Quality assessment"
+    },
+    "synthesis": {
+      "name": "Synthesis"
+    },
+    "transparency": {
+      "name": "Transparency"
+    },
     "title": {
       "name": "Title"
     }
@@ -70,13 +85,14 @@
       "rationale": "Identifying the primary review question before embarking on review keeps the project manageable and provides clarity for readers comparing the review to its protocol declaration."
     },
     {
-      "name": "_Identify the secondary questions_",
+      "name": "Identify the secondary questions",
       "scope": "protocol",
       "section": "research_question",
       "content": {
-        "general": "_If applicable, identify secondary questions such as sources of heterogeneity within identified studies._"
+        "general": "If applicable, identify secondary questions such as sources of heterogeneity within identified studies."
       },
-      "rationale": "Secondary questions may arise during the process of systematic review. Declaring secondary questions identified before review begins allows them to be differentiated from exploratory questions prompted by the review process."
+      "rationale": "Secondary questions may arise during the process of systematic review. Declaring secondary questions identified before review begins allows them to be differentiated from exploratory questions prompted by the review process.",
+      "optional": true
     },
     {
       "name": "Statement of hypothesis",
@@ -86,6 +102,217 @@
         "general": "Clearly state the hypothesis for each question, and specify if the anticipated effect has a directionality (i.e. a one-tailed versus two-tailed hypothesis)."
       },
       "rationale": "Stating hypotheses clearly before searches are made helps to ensure that tests of those hypotheses are more adequately representative of true effects."
+    },
+    {
+      "name": "Specify search strategy",
+      "scope": "protocol",
+      "section": "search_strategy",
+      "content": {
+        "general": "Please supply your full search strategy here, including the exact search strings for all databases and the dates the search was conducted. Ensure this includes: \n* Justification of the keywords selected (consulting experts, technological aids such as the R package [litsearchr](https://github.com/elizagrames/litsearchr))\n* All keywords including boolean operators\n* All limits (if any) used when performing the search (e.g. set to only include full text articles, or peer reviewed articles etc)\n* The databases searched (including URLs of the interfaces used and justifications). Note that the same platform (e.g. Web of Science) may search different databases depending on Institutional subscription (Dallas et al, 2018), so specify the actual databases.\n* Languages searched (including details of translations or interpretations)\n* Dates searched (e.g. Jan 1990-Oct 2019)\n* Whether reference lists will be searched in order to find more relevant articles. Specify what reference lists e.g. all reference lists in the papers that passed screening for relevance in the abstracts. \n* Strategy for identifying retracted papers"
+      },
+      "rationale": "The search strategy determines the raw ingredients which enter the systematic review process. Ensuring that the search strategy is reproducibile requires that there is a clear record of the specific databases searched and the terms used to search them."
+    },
+    {
+      "name": "Grey literature search strategy",
+      "scope": "protocol",
+      "section": "search_strategy",
+      "content": {
+        "general": "_Grey literature_ is work that is not published in conventional outlets. You should state which approaches you will take to find this kind of literature, perhaps including:\n* Dissertations and theses\n* Pre-prints (e.g. [arXiv.org](https://arXiv.org/))\n* Government reports\n* Presentations and posters from scientific meetings\n* Unpublished manuscripts"
+      },
+      "rationale": "Grey literature can have a large effect in overcoming publication bias, so it is important to have a clear plan for whether and how a grey literature search will be conducted.",
+      "optional": true
+    },
+    {
+      "name": "Search strategy relevance",
+      "scope": "protocol",
+      "section": "search_strategy",
+      "content": {
+        "general": "Confirm that your search strategy is clearly aligned with your primary review question."
+      },
+      "rationale": "It is easy to find that the complexities of systematic review design mean that the original question becomes sidelined. This step avoids wasting time on a review which will not answer the desired question."
+    },
+    {
+      "name": "Repetition schedule",
+      "scope": "protocol",
+      "section": "search_strategy",
+      "content": {
+        "general": "It is good practice to update searches at least every two years. If you plan to repeat your search, detail the repetition schedule here."
+      },
+      "rationale": "New contributions arrive in the literature continually, and occasionally papers may be removed from the literature by retraction. To ensure the conclusions of the systematic review remain relevant across this shifting landscape, reviews should be updated reasonably frequently."
+    },
+    {
+      "name": "Eligibility criteria",
+      "scope": "protocol",
+      "section": "screening",
+      "content": {
+        "general": "Please clearly define the eligibility and inclusion criteria of the studies. Use the following for guidance:\n* Study Design (e.g. cross-sectional, observational (measured variables at one time-point), cross-sectional (measured variables with different individuals at different ages/timepoints), longitudinal (same individuals followed over time; could be prospective or retrospective), experimental intervention (examining effect of specific manipulation); .intervention (examining effect of intervention designed to alter behaviour)\n* Detailed description of participant groups of interest to match the aims (e.g. population of adults with social anxiety defined as a score of 50 or more on the Liebowitz Social Anxiety Scale, elderly adults over 80 years old in the general population) including any other relevant participant characteristics\n* Method of data collection (e.g. lab experiment, questionnaires, any specific requirements to assure that the method is comparable across the studies)\n* Independent variable described in a standardised form (e.g. task difficulty reflected by different types of trials, participant anxiety levels reflected by questionnaire scores).\n* The main effect of interest (dependent variable) described in a standardised form (e.g. percentage of accurate trials to reflect task performance, overall score on a self-perception questionnaire etc.) and whether this is within-groups, between-groups, or both"
+      },
+      "rationale": ""
+    },
+    {
+      "name": "Eligibility justification",
+      "scope": "protocol",
+      "section": "screening",
+      "content": {
+        "general": "Please justify your decisions above in accordance to your research question."
+      },
+      "rationale": "Please explain how these decisions help to address your research question in an  objective way."
+    },
+    {
+      "name": "Reviewers of abstracts",
+      "scope": "protocol",
+      "section": "screening",
+      "content": {
+        "general": "How many reviewers will screen the titles and abstracts of each search result?"
+      },
+      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process and there should be enough overlap between the items that each reviewer screens in order to calculate consistency in decision-making."
+    },
+    {
+      "name": "Reviewers of full text",
+      "scope": "protocol",
+      "section": "screening",
+      "content": {
+        "general": "How many reviewers will screen the full text of each search result selected for inclusion? Describe how the reliability of the decisions will be assessed if only one reviewer will be involved."
+      },
+      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process and there should be enough overlap between the items that each reviewer screens in order to calculate consistency in decision-making."
+    },
+    {
+      "name": "Disagreements between reviewers",
+      "scope": "protocol",
+      "section": "screening",
+      "content": {
+        "general": "How will disagreements between reviewers on screening decisions be resolved?"
+      },
+      "rationale": ""
+    },
+    {
+      "name": "Extraction forms",
+      "scope": "protocol",
+      "section": "data_extraction",
+      "content": {
+        "general": "Please provide the data extraction forms including all information to be extracted from each study. You can add it as a supplementary file within the pre-registration. The data you choose to extract may include:\n* Participant groups size and type (e.g. adult, children, general, clinical)\n* Study design\n* Methods of IV and DV collection\n* Covariates\n* Results\n* Other details used in data extraction"
+      },
+      "rationale": ""
+    },
+    {
+      "name": "Extraction justification",
+      "scope": "protocol",
+      "section": "data_extraction",
+      "content": {
+        "general": "Please provide justification for the chosen data to be extracted in relation to your research question."
+      },
+      "rationale": "Please explain how these decisions help to address your research question in an  objective way."
+    },
+    {
+      "name": "Extraction reviewers",
+      "scope": "protocol",
+      "section": "data_extraction",
+      "content": {
+        "general": "How many reviewers will conduct data extraction? Describe how the reliability of the decisions will be assessed if only one reviewer will be involved."
+      },
+      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process and there should be enough overlap between the data that each reviewer extracts in order to calculate consistency."
+    },
+    {
+      "name": "Automated extraction",
+      "scope": "protocol",
+      "section": "data_extraction",
+      "content": {
+        "general": "Alternatively to the above - if you are planning to use a data mining software, please describe in detail how you will extract this information, whether you have piloted this process and how reliable it is (e.g. sensitivity and specificity ratings for your search criteria)."
+      },
+      "rationale": "",
+      "optional": true
+    },
+    {
+      "name": "Quality assessment",
+      "scope": "protocol",
+      "section": "quality_assessment",
+      "content": {
+        "general": "Please state how you will assess the risk of bias and/or methodological quality within the included studies. It is good practice to use an already existing, validated tool. Provide all the details about the tool used or a thorough description of any alternative methods of quality assessment (e.g. power analysis)."
+      },
+      "rationale": ""
+    },
+    {
+      "name": "Quality assessment reviewers",
+      "scope": "protocol",
+      "section": "quality_assessment",
+      "content": {
+        "general": "How many reviewers will assess the risk of bias and/or methodological quality of each study? Describe how the reliability of the decisions will be assessed if only one reviewer will be involved."
+      },
+      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process and there should be enough overlap between the items that each reviewer scores in order to calculate consistency in decision-making."
+    },
+    {
+      "name": "Automated quality assessment",
+      "scope": "protocol",
+      "section": "quality_assessment",
+      "content": {
+        "general": "Alternatively to the above - if you are planning to use a data mining software, please describe in detail how you will extract this information, whether you have piloted this process and how reliable it is (e.g. sensitivity and specificity ratings for your search criteria)."
+      },
+      "rationale": "",
+      "optional": true
+    },
+    {
+      "name": "Synthesis reviewers",
+      "scope": "protocol",
+      "section": "synthesis",
+      "content": {
+        "general": "How many reviewers will synthesise the results? Describe how the reliability of the decisions will be assessed if only one reviewer will be involved."
+      },
+      "rationale": "In order to avoid bias more than 1 reviewer should contribute to this process."
+    },
+    {
+      "name": "Synthesis",
+      "scope": "protocol",
+      "section": "synthesis",
+      "content": {
+        "general": "How will the results be synthesised? Is there a planned meta-analysis?"
+      },
+      "rationale": ""
+    },
+    {
+      "name": "Weighting",
+      "scope": "protocol",
+      "section": "synthesis",
+      "content": {
+        "general": "How are you planning to weigh the evidence of the included studies based on their risk of bias rating?"
+      },
+      "rationale": ""
+    },
+    {
+      "name": "Summarizing",
+      "scope": "protocol",
+      "section": "synthesis",
+      "content": {
+        "general": "How are you going to assess the strength of the body of evidence? If using an existing tool such as GRADE, please specify if and how it will be adapted to suit your research question."
+      },
+      "rationale": ""
+    },
+    {
+      "name": "Protocol registration stage",
+      "scope": "protocol",
+      "section": "transparency",
+      "content": {
+        "general": "At what stage of the review are you at the time of submitting this preregistration (not mutually exclusive)?\n* Scoping searches completed\n* Final search completed\n* Any other stage after or during data extraction with justification for why the pre-registration was not completed earlier."
+      },
+      "rationale": ""
+    },
+    {
+      "name": "Deviations from protocol",
+      "scope": "protocol",
+      "section": "transparency",
+      "content": {
+        "general": "If this is not the first pre-registration or the pre-registration happened after data extraction, have there been any changes or updates made to the protocol since the first preregistration? Please include details, justifications, and dates of any changes."
+      },
+      "rationale": "",
+      "optional": true
+    },
+    {
+      "name": "Protocol availability",
+      "scope": "protocol",
+      "section": "transparency",
+      "content": {
+        "general": "The protocol should be hosted on a designated online platform with a link protected from expiration or deactivation e.g. [Open Science Framework](https://osf.io/)."
+      },
+      "rationale": ""
     },
     {
       "name": "Include a descriptive title",

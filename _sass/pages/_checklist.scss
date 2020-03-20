@@ -3,6 +3,8 @@
   $colour: rgb(0, 0, 128);
   $backgroundFade: .05;
 
+  margin-bottom: 80px;
+
   section {
     margin: 0;
   }
@@ -27,6 +29,12 @@
     }
     &:hover {
       background-color: rgba($colour, $backgroundFade * 2);
+    }
+    &.optional {
+      font-style: italic;
+      em {
+        font-style: normal;
+      }
     }
   }
 
