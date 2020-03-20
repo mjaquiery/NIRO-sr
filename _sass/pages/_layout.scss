@@ -73,6 +73,26 @@
     }
   }
 }
+.cover-card nav {
+  display: none;
+  @include media-query($medium-screen) {
+    display: block;
+  }
+}
+.col > nav {
+  z-index: 1000;
+  background-color: $background-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include media-query($medium-screen) {
+    display: none;
+  }
+}
 .nav-list {
   margin: 0;
   padding: 0;

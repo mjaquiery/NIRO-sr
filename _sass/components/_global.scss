@@ -106,15 +106,13 @@ a {
 footer {
   text-align: center;
   position: fixed;
-  top: 0;
+  bottom: 0;
   color: gainsboro;
   width: 100%;
   overflow: hidden;
   z-index: 1;
   padding: 0.5em;
   @include media-query($medium-screen) {
-    top: unset;
-    bottom: 0;
     width: inherit;
   }
   a {
