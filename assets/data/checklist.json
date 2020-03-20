@@ -11,16 +11,85 @@
   ],
   "description": "a checklist to allow reproducibile and open systematic review of non-intervention research",
   "sections": {
-    "title": {
-      "name": "Title"
+    "aims": {
+      "name": "Aims"
+    },
+    "research_question": {
+      "name": "Research question"
     },
     "search_strategy": {
       "name": "Search strategy"
+    },
+    "title": {
+      "name": "Title"
+    }
+  },
+  "scopes": {
+    "protocol": {
+      "name": "Protocol"
+    },
+    "review": {
+      "name": "Systematic review"
     }
   },
   "items": [
     {
+      "name": "Describe the topic",
+      "scope": "protocol",
+      "section": "aims",
+      "content": {
+        "general": "Please give a short description of your review topic."
+      },
+      "rationale": "A short description enables readers to ascertain whether the framework for the project has shifted substantially between the protocol document and the systematic review."
+    },
+    {
+      "name": "Statement of need",
+      "scope": "protocol",
+      "section": "aims",
+      "content": {
+        "general": "Why is the review needed?\n* No previous review\n* Update to previous review\n* Previous reviews are flawed"
+      },
+      "rationale": "A systematic review fits within the context of a literature of reviews, and its place in relation to existing reviews should be clarified."
+    },
+    {
+      "name": "Justification",
+      "scope": "protocol",
+      "section": "aims",
+      "content": {
+        "general": "Please provide a rationale for the review. Explain how the review will support the field of research and how the review will fit into the progress of research in the field."
+      },
+      "rationale": "A systematic review is a substantial undertaking, and thus a clear justification is important before beginning."
+    },
+    {
+      "name": "Identify the research question",
+      "scope": "protocol",
+      "section": "research_question",
+      "content": {
+        "general": "State the primary review question. Make sure it is clearly defined and includes:\n* The primary effect of interest\n* The independent variable(s) of interest\n* The population of interest (e.g. general public, children, clinical patients)\n* _Covariates of interest_"
+      },
+      "rationale": "Identifying the primary review question before embarking on review keeps the project manageable and provides clarity for readers comparing the review to its protocol declaration."
+    },
+    {
+      "name": "_Identify the secondary questions_",
+      "scope": "protocol",
+      "section": "research_question",
+      "content": {
+        "general": "_If applicable, identify secondary questions such as sources of heterogeneity within identified studies._"
+      },
+      "rationale": "Secondary questions may arise during the process of systematic review. Declaring secondary questions identified before review begins allows them to be differentiated from exploratory questions prompted by the review process."
+    },
+    {
+      "name": "Statement of hypothesis",
+      "scope": "protocol",
+      "section": "research_question",
+      "content": {
+        "general": "Clearly state the hypothesis for each question, and specify if the anticipated effect has a directionality (i.e. a one-tailed versus two-tailed hypothesis)."
+      },
+      "rationale": "Stating hypotheses clearly before searches are made helps to ensure that tests of those hypotheses are more adequately representative of true effects."
+    },
+    {
       "name": "Include a descriptive title",
+      "scope": "review",
       "section": "title",
       "content": {
         "general": "A systematic review should have a descriptive title which clearly identifies the research question and the methodology (systematic review).",
@@ -31,6 +100,7 @@
     },
     {
       "name": "Search syntax",
+      "scope": "review",
       "section": "search_strategy",
       "content": {
         "general": "A systematic review should include the full search strategy string from each database searched.",
@@ -41,6 +111,7 @@
     },
     {
       "name": "Search date",
+      "scope": "review",
       "section": "search_strategy",
       "content": {
         "general": "A systematic review should include the date the search was conducted for each database searched. If multiple searches are conducted on a single database, dates should be included for all searches.",
@@ -51,6 +122,7 @@
     },
     {
       "name": "Grey literature",
+      "scope": "review",
       "section": "search_strategy",
       "content": {
         "general": "A systematic review should include an explanation of how unpublished or inaccessible information was approached. Was any attempt made to locate and access information which was not formally published in accessible locations?",

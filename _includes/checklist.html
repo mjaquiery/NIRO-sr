@@ -1,14 +1,14 @@
----
-title: Checklist
-description: "NIRO Checklist for Systematic Review"
-layout: default
-summary: "The NIRO checklist ensures that nothing gets missed in the complex process of systematic review."
----
-
 <article class="checklist" id="checklist">
     <a class="temp" href="/assets/data/checklist.json">Raw JSON file</a>
 </article>
 <!-- fetch showdown for converting markdown to HTML -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js" type="text/javascript"></script>
 <!-- populate the checklist from the JSON file -->
-<script src="assets/js/checklist.js" type="text/javascript" defer></script>
+<script src="assets/js/checklist.js" type="text/javascript"></script>
+<script type="text/javascript">
+    getChecklistData()
+        .then(cl => {
+            cl.items = cl.items.filter(i => i.scope === "{{ include.protocol }}");
+            unpackChecklist(cl);
+        });
+</script>
