@@ -1,11 +1,12 @@
 ---
-name: Jade Pickering
-institution: University of Manchester
+# your full display name
+name: Emily J Kothe 
+institution: Deakin University
 # links
-orcid: 0000-0002-7242-9207
-github: jspickering
+orcid: 
+github: 
 twitter: 
-email: jade.pickering@postgrad.manchester.ac.uk
+email: emily.kothe@deakin.edu.au
 website: 
 
 contributions:
@@ -15,13 +16,13 @@ contributions:
 #  - funding​
   - ​investigation
   - ​methodology
-  - administration​
+#  - administration​
 #  - ​resources
 #  - ​software
-#  - supervision
-#  - validation
+#  - ​supervision
+#  - ​validation
 #  - ​visualization
-  - writing
+#  - writing
   - review
   - editing
 ---

@@ -1,15 +1,13 @@
 ---
 # your full display name
-name: default  
-institution: University of Oxford
+name: Chris Hartgerink 
 # links
-orcid: 0000-0003-3599-1580
-github: mjaquiery
-twitter: mjaquiery
-email: matt.jaquiery@psy.ox.ac.uk
-website: https://verysmalldreams.com
+orcid: 
+github: 
+twitter: 
+email: 
+website: 
 
-# Uncomment to add a badge
 contributions:
 #  - ​conceptualization
 #  - data

@@ -1,6 +1,6 @@
 ---
 name: Marta Topor
-
+institution: Unversity of Surrey
 # links
 orcid: 
 github: 
@@ -10,12 +10,16 @@ website:
 
 contributions:
   - ​conceptualization
+  - data
+  - analysis
+#  - funding​
   - ​investigation
   - ​methodology
   - administration​
-  - ​resources
-  - ​supervision
-  - ​validation
+#  - ​resources
+#  - ​software
+#  - ​supervision
+#  - ​validation
   - ​visualization
   - writing
   - review

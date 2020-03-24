@@ -1,7 +1,8 @@
 {% assign x = include.contributor %}
-{% if x.name and x.name != "default" %}
+{% if x.name and x.name != "default" and x.contributions %}
 <section class="contributor card">
     <h1 class="name">{{ x.name }}</h1>
+    {% if x.institution %}<h2 class="institution">{{ x.institution }}</h2>{% endif %}
     <div class="links">
         {% if x.orcid %}
         <a href="https://orcid.org/{{ x.orcid }}" title="orcid: {{ x.orcid }}"><i class="ai ai-orcid-square ai-2x"></i></a>
