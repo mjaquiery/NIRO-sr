@@ -1,11 +1,11 @@
 ---
 name: Marta Topor
-institution: Unversity of Surrey
+institution: University of Surrey
 # links
-orcid: 
-github: 
-twitter: 
-email: 
+orcid: 0000-0003-3761-392X
+github: m-topor
+twitter: MartaTopor
+email: m.topor@surrey.ac.uk
 website: 
 
 contributions:
@@ -18,7 +18,7 @@ contributions:
   - administration​
 #  - ​resources
 #  - ​software
-#  - ​supervision
+  - ​supervision
 #  - ​validation
   - ​visualization
   - writing
