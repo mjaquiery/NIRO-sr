@@ -1,7 +1,7 @@
 ---
 # your full display name
 name: Thomas Rhys Evans 
-institution: Coventry University#
+institution: Coventry University
 # links
 orcid: 0000-0002-6670-0718
 github: 
