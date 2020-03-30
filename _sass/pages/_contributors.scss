@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: 10em;
 }
 
 .contributor {
@@ -23,19 +24,15 @@
   }
   .institution {
     margin: 0 auto 1em auto;
+    text-align: center;
     font-size: 1em;
-  }
-  .caption {
-    display: none;
-    position: absolute;
-    border: 2px solid navy;
-    background-color: white;
-    margin: 1em 1em 1em 0;
-    font-size: .75em;
   }
   .contributions, .links {
     display: flex;
-    width: max-content;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
     font-size: 1.5em;
     * {
       padding: 2px;
@@ -45,14 +42,52 @@
   .contributions svg {
     color: gainsboro;
   }
-  .contributions i:hover, .contributions svg:hover {
+  .caption {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: white;
     color: navy;
-    & + .caption {
-      display: block;
-    }
+    border: .2em solid navy;
+    text-align: center;
+    font-size: .6em;
+    padding: .5em;
+    border-radius: .5em;
+    z-index: 1;
+    p {margin: 0}
+  }
+  .contributions i:hover, .contributions svg:hover,
+  .contributions i:focus, .contributions svg:focus {
+    color: navy;
+  }
+  .icon {
+    position: relative;
+  }
+  .icon:hover::after,
+  .icon:focus::after {
+    content: " ";
+    position: absolute;
+    top: calc(100% - .5em);
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: .25em;
+    border-width: .25em;
+    border-style: solid;
+    border-color: transparent transparent navy transparent;
+  }
+  .icon:hover + .caption,
+  .icon:focus + .caption{
+    display: block;
+    opacity: 1;
+    transition: opacity .25s;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     box-shadow: 4px 4px 2px 0 gainsboro;
   }
 }

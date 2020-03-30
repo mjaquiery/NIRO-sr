@@ -2,7 +2,7 @@
 {% if x.name and x.name != "default" and x.contributions %}
 <section class="contributor card">
     <h1 class="name">{{ x.name }}</h1>
-    {% if x.institution %}<h2 class="institution">{{ x.institution }}</h2>{% endif %}
+    {% if x.institution %}<h2 class="institution">{% for i in x.institution %}{{ i }}{% unless forloop.last %}<br/>{% endunless %}{% endfor %}</h2>{% endif %}
     <div class="links">
         {% if x.orcid %}
         <a href="https://orcid.org/{{ x.orcid }}" title="orcid: {{ x.orcid }}"><i class="ai ai-orcid-square ai-2x"></i></a>
@@ -24,64 +24,109 @@
         {% for link in x.contributions %}
         {% case link %}
             {% when "​conceptualization" %}
-        <div class="icon">
-            <i class="fas fa-brain" title="Conceptualization – Ideas; formulation or evolution of overarching research goals and aims."></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-brain"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Conceptualization</strong> – Ideas; formulation or evolution of overarching research goals and aims.</p>
         </div>
             {% when "data" %}
-        <div class="icon">
-            <i class="fas fa-table" title="Data curation – Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later re-use."></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-table"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Data curation</strong> – Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later re-use.</p>
         </div>
             {% when "analysis" %}
-        <div class="icon">
-            <i class="fas fa-chart-bar" title="Formal analysis – Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data."></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-chart-bar"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Formal analysis</strong> – Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data.</p>
         </div>
             {% when "funding​" %}
-        <div class="icon">
-            <i class="fas fa-money-bill-wave" title="Funding acquisition ​- Acquisition of the financial support for the project leading to this publication."></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-money-bill-wave"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Funding acquisition</strong> – Acquisition of the financial support for the project leading to this publication.</p>
         </div>
             {% when "​investigation" %}
-        <div class="icon">
-            <i class="fas fa-search" title="Investigation – ​Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection."></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Investigation</strong> – Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection.</p>
         </div>
             {% when "​methodology" %}
-        <div class="icon">
-            <i class="fas fa-map" title="Methodology – Development or design of methodology; creation of models."></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-map"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Methodology</strong> – Development or design of methodology; creation of models.</p>
         </div>
             {% when "administration​" %}
-        <div class="icon">
-            <i class="fas fa-users-cog" title="Project administration – Management and coordination responsibility for the research activity planning and execution."></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-users-cog"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Project administration</strong> – Management and coordination responsibility for the research activity planning and execution.</p>
         </div>
             {% when "​resources" %}
-        <div class="icon">
-            <i class="fas fa-flask" title="Resources – Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools."></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-flask"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Resources</strong> – Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools.</p>
         </div>
             {% when "​software" %}
-        <div class="icon">
-            <i class="fas fa-laptop-code" title="Software – Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components.<"></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-laptop-code"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Software</strong> – Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components.</p>
         </div>
             {% when "​supervision" %}
-        <div class="icon">
-            <i class="fas fa-chalkboard-teacher" title="Supervision – Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team."></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-chalkboard-teacher"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Supervision</strong> – Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team.</p>
         </div>
             {% when "​validation" %}
-        <div class="icon">
-            <i class="fas fa-check-double" title="Validation – Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs."></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-check-double"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Validation</strong> – Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs.</p>
         </div>
             {% when "​visualization" %}
-        <div class="icon">
-            <i class="fas fa-chart-pie" title="Visualization – Preparation, creation and/or presentation of the published work, specifically visualization/data presentation."></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-chart-pie"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Visualization</strong> – Preparation, creation and/or presentation of the published work, specifically visualization/data presentation.</p>
         </div>
             {% when "writing" %}
-        <div class="icon">
-            <i class="fas fa-pen" title="Writing – original draft – ​Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)."></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-pen"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Writing – original draft</strong> – ​Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation).</p>
         </div>
             {% when "review" %}
-        <div class="icon">
-            <i class="fas fa-highlighter" title="Writing – review & editing – Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre- or post-publication stages."></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-highlighter"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Writing – review</strong> – Critical review or commentary of the draft – including pre- or post-publication stages.</p>
         </div>
             {% when "editing" %}
-        <div class="icon">
-            <i class="fas fa-edit" title="Writing – review & editing – Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre- or post-publication stages."></i>
+        <div class="icon" tabindex="0">
+            <i class="fas fa-edit"></i>
+        </div>
+        <div class="caption">
+            <p><strong>Writing – editing</strong> – Revision of the draft – including pre- or post-publication stages.</p>
         </div>
             {% endcase %}
         {% endfor %}
