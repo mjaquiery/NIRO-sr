@@ -1,3 +1,4 @@
+---
 name: Olivia Kirtley
 institution: 
   - TBC
@@ -9,7 +10,7 @@ email:
 website: 
 
 contributions:
-#  - ​conceptualization
+  - ​conceptualization
 #  - data
 #  - analysis
 #  - funding​
