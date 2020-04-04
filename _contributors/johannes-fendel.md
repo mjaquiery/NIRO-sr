@@ -1,7 +1,7 @@
 ---
 name: Johannes Fendel
 institution: 
-  - [WIP]
+  - TBC
 # links
 orcid: 
 github: 
