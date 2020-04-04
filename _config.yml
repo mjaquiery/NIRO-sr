@@ -5,12 +5,12 @@
 #
 title: NIRO Systematic Review
 email:
-description: A checklist for conducting Systematic Reviews in a Non-Interventionist, Reproducibile and Open way.
+description: A checklist for conducting Systematic Reviews for Non-Interventional studies in a Reproducible and Open way.
 url: # the base hostname & protocol for your site
 keywords:
   - "NIRO"
   - "Systematic review"
-  - "Non-Interventionist"
+  - "Non-Interventional"
   - "Reproducible"
   - "Open"
 
@@ -43,7 +43,7 @@ kramdown:
 owner:
   name: NIRO Systematic Review
   avatar: logo.svg
-  job: "Non-Interventionist, Reproducibile and Open Systematic Review"
+  job: "Non-Interventional, Reproducible and Open (NIRO) Systematic Reviews"
   bio: ""
   email:
   disqus-shortname:
