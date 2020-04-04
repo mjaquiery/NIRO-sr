@@ -1,13 +1,13 @@
 ---
 name: James Montilla Doble
 institution: 
-  - TBC
+  - University of the Philippines Diliman
 # links
-orcid: 
+orcid: 0000-0002-7414-8484
 github: 
-twitter: 
-email: 
-website: 
+twitter: lysanderjames
+email: cmdoble@up.edu.ph
+website: https://sites.google.com/up.edu.ph/james
 
 contributions:
 #  - ​conceptualization
