@@ -1,7 +1,7 @@
 ---
 name: Michael Ingre
 institution: 
-  - [WIP]
+  - TBC
 # links
 orcid: 
 github: 
