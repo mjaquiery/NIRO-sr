@@ -4,9 +4,9 @@ institution:
   - University of Manchester
 # links
 orcid: 
-github: 
-twitter: 
-email: 
+github: M4rt4M
+twitter: MartMajew
+email: marta.majewska@manchester.ac.uk
 website: 
 
 contributions:
