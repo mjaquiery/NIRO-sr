@@ -1,16 +1,16 @@
 ---
 name: Esther Maassen
-institution: 
+institution:
   - TBC
 # links
-orcid: 
-github: 
-twitter: 
-email: 
-website: 
+orcid:
+github:
+twitter:
+email:
+website:
 
 contributions:
-  - ​conceptualization
+#  - ​conceptualization
 #  - data
 #  - analysis
 #  - funding​
@@ -25,4 +25,5 @@ contributions:
 #  - writing
 #  - review
 #  - editing
+  - misc
 ---
