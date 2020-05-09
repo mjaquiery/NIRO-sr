@@ -10,7 +10,7 @@ email:
 website:
 
 contributions:
-#  - ​conceptualization
+  - ​conceptualization
 #  - data
 #  - analysis
 #  - funding​

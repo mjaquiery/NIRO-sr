@@ -1,6 +1,6 @@
 ---
 name: Marta Topor
-institution: University of Surrey
+institution: University of Surrey, UK
 # links
 orcid: 0000-0003-3761-392X
 github: m-topor

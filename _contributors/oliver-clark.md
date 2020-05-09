@@ -5,11 +5,11 @@ institution: Manchester Metropolitan University, UK
 orcid:
 github:
 twitter:
-email: 
+email:
 website:
 
 contributions:
-  - ​conceptualization
+#  - ​conceptualization
 #  - data
 #  - analysis
 #  - funding​
@@ -24,4 +24,5 @@ contributions:
 #  - writing
 #  - review
 #  - editing
+  - misc
 ---

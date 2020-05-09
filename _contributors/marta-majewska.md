@@ -1,13 +1,13 @@
 ---
 name: Marta Majewska
-institution: 
-  - University of Manchester
+institution:
+  - University of Manchester, UK
 # links
-orcid: 
+orcid:
 github: M4rt4M
 twitter: MartMajew
 email: marta.majewska@manchester.ac.uk
-website: 
+website:
 
 contributions:
 #  - ​conceptualization
@@ -25,4 +25,5 @@ contributions:
 #  - writing
   - review
   - editing
+#  - misc
 ---

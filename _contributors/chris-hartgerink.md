@@ -9,7 +9,7 @@ email:
 website:
 
 contributions:
-  - ​conceptualization
+#  - ​conceptualization
 #  - data
 #  - analysis
 #  - funding​
@@ -24,4 +24,5 @@ contributions:
 #  - writing
 #  - review
 #  - editing
+  - misc
 ---

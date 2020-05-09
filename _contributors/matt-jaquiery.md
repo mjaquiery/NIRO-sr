@@ -1,6 +1,6 @@
 ---
 name: Matt Jaquiery
-institution: University of Oxford
+institution: University of Oxford, UK
 # links
 orcid: 0000-0003-3599-1580
 github: mjaquiery

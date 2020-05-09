@@ -7,10 +7,10 @@ orcid:
 github:
 twitter: tamart4
 email: tamara.kalandadze@hiof.no
-website: 
+website:
 
 contributions:
-#  - ​conceptualization
+  - ​conceptualization
 #  - data
 #  - analysis
 #  - funding​
