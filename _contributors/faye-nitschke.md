@@ -1,13 +1,13 @@
 ---
 name: Faye Nitschke
-institution: 
+institution:
   - TBC
 # links
-orcid: 
-github: 
-twitter: 
-email: 
-website: 
+orcid:
+github:
+twitter:
+email:
+website:
 
 contributions:
   - ​conceptualization
@@ -15,7 +15,7 @@ contributions:
 #  - analysis
 #  - funding​
 #  - ​investigation
-#  - ​methodology
+  - ​methodology
 #  - administration​
 #  - ​resources
 #  - ​software
@@ -25,4 +25,5 @@ contributions:
 #  - writing
 #  - review
 #  - editing
+  - misc
 ---

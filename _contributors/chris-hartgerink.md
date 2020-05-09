@@ -1,15 +1,15 @@
 ---
 # your full display name
-name: Chris Hartgerink 
+name: Chris Hartgerink
 # links
-orcid: 
-github: 
-twitter: 
-email: 
-website: 
+orcid:
+github:
+twitter:
+email:
+website:
 
 contributions:
-#  - ​conceptualization
+  - ​conceptualization
 #  - data
 #  - analysis
 #  - funding​
