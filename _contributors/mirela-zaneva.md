@@ -1,16 +1,16 @@
 ---
 # your full display name
-name: Mirela Zaneva 
-institution: University of Oxford
+name: Mirela Zaneva
+institution: University of Oxford, UK
 # links
 orcid: 0000-0003-3569-931X
-github: 
-twitter: 
+github:
+twitter:
 email: mirela.zaneva@psy.ox.ac.uk
-website: 
+website:
 
 contributions:
-#  - ​conceptualization
+  - ​conceptualization
 #  - data
 #  - analysis
 #  - funding​
@@ -25,4 +25,5 @@ contributions:
   - writing
   - review
   - editing
+  - misc
 ---

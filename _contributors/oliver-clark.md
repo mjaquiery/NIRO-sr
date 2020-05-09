@@ -1,12 +1,12 @@
 ---
 name: Oliver Clark
-institution: Manchester Metropolitan University
+institution: Manchester Metropolitan University, UK
 # links
-orcid: 
-github: 
-twitter: 
+orcid:
+github:
+twitter:
 email: 
-website: 
+website:
 
 contributions:
   - ​conceptualization

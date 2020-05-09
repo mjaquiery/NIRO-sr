@@ -1,13 +1,13 @@
 ---
 name: Olmo van den Akker
-institution: 
+institution:
   - TBC
 # links
-orcid: 
-github: 
-twitter: 
-email: 
-website: 
+orcid:
+github:
+twitter:
+email:
+website:
 
 contributions:
   - ​conceptualization
@@ -25,4 +25,5 @@ contributions:
 #  - writing
   - review
   - editing
+  - misc
 ---

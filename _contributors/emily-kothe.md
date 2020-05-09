@@ -1,13 +1,13 @@
 ---
 # your full display name
-name: Emily J Kothe 
-institution: Deakin University
+name: Emily J Kothe
+institution: Deakin University, Australia
 # links
-orcid: 
-github: 
-twitter: 
+orcid:
+github:
+twitter:
 email: emily.kothe@deakin.edu.au
-website: 
+website:
 
 contributions:
   - ​conceptualization

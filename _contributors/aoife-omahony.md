@@ -1,13 +1,13 @@
 ---
 name: Aoife O'Mahony
-institution: 
+institution:
   - Cardiff University, UK
 # links
-orcid: 
-github: 
-twitter: 
+orcid:
+github:
+twitter:
 email: omahonya@cardiff.ac.uk
-website: 
+website:
 
 contributions:
 #  - ​conceptualization
@@ -25,4 +25,5 @@ contributions:
 #  - writing
 #  - review
 #  - editing
+  - misc
 ---

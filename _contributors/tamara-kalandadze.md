@@ -1,11 +1,10 @@
 ---
 name: Tamara Kalandadze
-institution: 
+institution:
   - Østfold University College, Norway
-  - University of Stavanger, Norway
 # links
-orcid: 
-github: 
+orcid:
+github:
 twitter: tamart4
 email: tamara.kalandadze@hiof.no
 website: 
@@ -24,6 +23,7 @@ contributions:
 #  - validation
 #  - ​visualization
 #  - writing
-#  - review
-#  - editing
+  - review
+  - editing
+  - misc
 ---

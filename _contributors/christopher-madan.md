@@ -1,16 +1,16 @@
 ---
 # your full display name
 name: Christopher R Madan
-institution: University of Nottingham
+institution: University of Nottingham, UK
 # links
 orcid: 0000-0003-3228-6501
-github: 
-twitter: 
+github: cMadan
+twitter: cMadan
 email: christopher.madan@nottingham.ac.uk
-website: 
+website: http://cmadan.com
 
 contributions:
-#  - ​conceptualization
+  - ​conceptualization
   - data
 #  - analysis
 #  - funding​

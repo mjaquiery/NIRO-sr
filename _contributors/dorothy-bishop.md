@@ -2,11 +2,11 @@
 name: Dorothy Bishop
 institution: University of Oxford, UK
 # links
-orcid: 
-github: 
-twitter: 
-email: 
-website: 
+orcid:
+github:
+twitter:
+email:
+website:
 
 contributions:
   - ​conceptualization
@@ -24,4 +24,5 @@ contributions:
   - writing
   - review
   - editing
+  - misc
 ---

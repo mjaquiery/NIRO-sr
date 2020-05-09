@@ -1,13 +1,13 @@
 ---
 name: Sam Westwood
-institution: 
-  - TBC
+institution:
+  - King's College London, UK
 # links
 orcid: 
-github: 
-twitter: 
-email: 
-website: 
+github:
+twitter:
+email:
+website:
 
 contributions:
   - ​conceptualization
@@ -22,7 +22,8 @@ contributions:
 #  - supervision
 #  - validation
 #  - ​visualization
-#  - writing
-#  - review
-#  - editing
+  - writing
+  - review
+  - editing
+  - misc
 ---

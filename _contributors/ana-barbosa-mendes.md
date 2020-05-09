@@ -3,10 +3,10 @@ name: Ana Barbosa Mendes
 institution: KU Leuven, Belgium
 # links
 orcid: 0000-0002-1205-1724
-github: 
+github:
 twitter: ABBarbosaMendes
 email: ana.barbosamendes@kuleuven.be
-website: 
+website:
 
 contributions:
   - ​conceptualization
@@ -24,4 +24,5 @@ contributions:
   - writing
   - review
   - editing
+  - misc
 ---

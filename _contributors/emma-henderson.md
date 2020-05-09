@@ -1,16 +1,16 @@
 ---
 # your full display name
 name: Emma L Henderson  
-institution: Kingston University
+institution: Kingston University, UK
 # links
 orcid: 0000-0002-5396-2321
-github: 
-twitter: 
+github:
+twitter: EmmaHendersonRR
 email: e.henderson@kingston.ac.uk
-website: 
+website: emmalhenderson.com/
 
 contributions:
-#  - ​conceptualization
+  - ​conceptualization
   - data
 #  - analysis
 #  - funding​
@@ -22,7 +22,8 @@ contributions:
 #  - ​supervision
 #  - ​validation
 #  - ​visualization
-  - writing
+#  - writing
   - review
   - editing
+  - misc
 ---

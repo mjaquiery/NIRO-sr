@@ -6,7 +6,7 @@ orcid: 0000-0003-3761-392X
 github: m-topor
 twitter: MartaTopor
 email: m.topor@surrey.ac.uk
-website: 
+website:
 
 contributions:
   - ​conceptualization
@@ -24,4 +24,5 @@ contributions:
   - writing
   - review
   - editing
+  - misc
 ---

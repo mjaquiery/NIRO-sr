@@ -1,10 +1,10 @@
 ---
 name: James Montilla Doble
-institution: 
+institution:
   - University of the Philippines Diliman
 # links
 orcid: 0000-0002-7414-8484
-github: 
+github:
 twitter: lysanderjames
 email: cmdoble@up.edu.ph
 website: https://sites.google.com/up.edu.ph/james
@@ -25,4 +25,5 @@ contributions:
 #  - writing
 #  - review
 #  - editing
+  - misc
 ---

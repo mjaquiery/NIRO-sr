@@ -1,16 +1,16 @@
 ---
 # your full display name
 name: David Moreau
-institution: University of Auckland
+institution: University of Auckland, NZ
 # links
 orcid: 0000-0002-1957-1941
-github: 
-twitter: 
+github: davidmoreau
+twitter: davidwmoreau
 email: d.moreau@auckland.ac.nz
-website: 
+website: braindynamicslab.com
 
 contributions:
-#  - ​conceptualization
+  - ​conceptualization
 #  - data
 #  - analysis
 #  - funding​

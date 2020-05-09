@@ -1,12 +1,12 @@
 ---
 name: Faye Nitschke
 institution:
-  - TBC
+  - University of Queensland, Australia
 # links
-orcid:
+orcid: 0000-0003-1200-4765
 github:
-twitter:
-email:
+twitter: ts_faye
+email: f.nitschke@uq.edu.au
 website:
 
 contributions:

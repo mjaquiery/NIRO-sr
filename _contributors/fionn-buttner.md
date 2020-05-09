@@ -1,13 +1,13 @@
 ---
 # your full display name
-name: Fionn Büttner 
+name: Fionn Büttner
 institution: University College Dublin, Ireland
 # links
 orcid: 0000-0002-5987-3063
-github: 
-twitter: 
+github:
+twitter:
 email:
-website: 
+website:
 
 contributions:
 #  - ​conceptualization
@@ -25,4 +25,5 @@ contributions:
 #  - writing
 #  - review
 #  - editing
+
 ---
