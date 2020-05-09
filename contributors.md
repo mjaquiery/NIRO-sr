@@ -1,6 +1,6 @@
 ---
 title: Contributors
-summary: "NIRO only exists thanks to the expert and selfless work of numerous contributors."
+summary: "NIRO only exists thanks to the expertise and enthusiasm of numerous contributors."
 layout: default
 ---
 {% assign max = 0 %}
