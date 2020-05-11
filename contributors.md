@@ -3,21 +3,20 @@ title: Contributors
 summary: "NIRO only exists thanks to the expertise and enthusiasm of numerous contributors."
 layout: default
 ---
-{% assign max = 0 %}
-{% for x in site.contributors %}
-    {% assign n = x.contributions | size %}
-    {% if n > max %}
-        {% assign max = n %}
-    {% endif %}
-{% endfor %}
 
-<section class="contributors">
-{% for i in (1..max) reversed %}
-{% for x in site.contributors %}
-{% assign n = x.contributions | size %}
-{% if n == i %}
-{% include contributor-card.html contributor=x %}
-{% endif %}
+{% assign leads = site.contributors | where: "projectLead", true %}
+{% assign contributors = site.contributors | where_exp: "projectLead", "projectLead != true" %}
+
+<h1>Project leaders</h1>
+<section class="contributors leads">
+{% for x in leads %}
+    {% include contributor-card.html contributor = x %}
 {% endfor %}
+</section>
+
+<h1>Contributors</h1>
+<section class="contributors">
+{% for x in contributors %}
+    {% include contributor-card.html contributor=x %}
 {% endfor %}
 </section>
