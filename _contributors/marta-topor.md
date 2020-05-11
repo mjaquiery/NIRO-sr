@@ -8,6 +8,7 @@ twitter: MartaTopor
 email: m.topor@surrey.ac.uk
 website:
 
+projectLead: true
 contributions:
   - ​conceptualization
   - data
