@@ -7,7 +7,7 @@ orcid: 0000-0002-5396-2321
 github:
 twitter: EmmaHendersonRR
 email: e.henderson@kingston.ac.uk
-website: emmalhenderson.com/
+website: http://emmalhenderson.com/
 
 contributions:
   - ​conceptualization

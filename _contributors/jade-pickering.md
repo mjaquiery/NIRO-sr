@@ -8,7 +8,7 @@ orcid: 0000-0002-7242-9207
 github: jspickering
 twitter: Jade_Pickering
 email: jade.pickering@manchester.ac.uk; jade.pickering@york.ac.uk
-website: jade-pickering.com
+website: http://jade-pickering.com
 
 contributions:
   - ​conceptualization

@@ -7,7 +7,7 @@ orcid: 0000-0002-1957-1941
 github: davidmoreau
 twitter: davidwmoreau
 email: d.moreau@auckland.ac.nz
-website: braindynamicslab.com
+website: http://braindynamicslab.com
 
 contributions:
   - ​conceptualization
