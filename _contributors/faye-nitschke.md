@@ -22,8 +22,8 @@ contributions:
 #  - supervision
 #  - validation
 #  - ​visualization
-#  - writing
-#  - review
-#  - editing
+  - writing
+  - review
+  - editing
   - misc
 ---

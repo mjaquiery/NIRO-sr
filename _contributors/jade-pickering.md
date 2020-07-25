@@ -1,8 +1,8 @@
 ---
 name: Jade Pickering
 institution:
-  - University of Manchester, UK
   - University of York, UK
+  - University of Manchester, UK
 # links
 orcid: 0000-0002-7242-9207
 github: jspickering

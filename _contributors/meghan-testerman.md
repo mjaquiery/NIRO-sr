@@ -1,21 +1,21 @@
 ---
-# your full display name
-name: Thomas Rhys Evans
-institution: Coventry University, UK
+name: Meghan Testerman  
+institution: Princeton University, USA
 # links
-orcid: 0000-0002-6670-0718
+orcid: 0000-0003-1097-0556
 github:
-twitter:
-email: ab6443@coventry.ac.uk
-website:
+twitter: MeghanTesterman
+email: mtesterman@princeton.edu
+website: osf.io/p58d2
 
+# Uncomment to add a badge
 contributions:
 #  - ​conceptualization
-  - data
+#  - data
 #  - analysis
 #  - funding​
 #  - ​investigation
-#  - ​methodology
+  - ​methodology
 #  - administration​
 #  - ​resources
 #  - ​software
@@ -25,4 +25,5 @@ contributions:
 #  - writing
   - review
   - editing
+  - misc
 ---

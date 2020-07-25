@@ -1,17 +1,17 @@
 ---
-# your full display name
-name: Thomas Rhys Evans
-institution: Coventry University, UK
+name: Siu Kit Yeung  
+institution: The University of Hong Kong, HK
 # links
-orcid: 0000-0002-6670-0718
+orcid:
 github:
-twitter:
-email: ab6443@coventry.ac.uk
+twitter: yskjdm
+email: u3517520@connect.hku.hk
 website:
 
+# Uncomment to add a badge
 contributions:
 #  - ​conceptualization
-  - data
+#  - data
 #  - analysis
 #  - funding​
 #  - ​investigation
@@ -22,7 +22,8 @@ contributions:
 #  - ​supervision
 #  - ​validation
 #  - ​visualization
-#  - writing
+  - writing
   - review
   - editing
+#  - misc
 ---

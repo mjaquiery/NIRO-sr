@@ -11,7 +11,7 @@ website:
 
 contributions:
   - ​conceptualization
-#  - data
+  - data
 #  - analysis
 #  - funding​
 #  - ​investigation

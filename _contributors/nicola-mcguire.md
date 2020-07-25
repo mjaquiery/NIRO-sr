@@ -1,17 +1,18 @@
 ---
 # your full display name
-name: Thomas Rhys Evans
-institution: Coventry University, UK
+name: default  
+institution: University of Oxford
 # links
-orcid: 0000-0002-6670-0718
-github:
-twitter:
-email: ab6443@coventry.ac.uk
-website:
+orcid: 0000-0003-3599-1580
+github: mjaquiery
+twitter: mjaquiery
+email: matt.jaquiery@psy.ox.ac.uk
+website: https://verysmalldreams.com
 
+# Uncomment to add a badge
 contributions:
 #  - ​conceptualization
-  - data
+#  - data
 #  - analysis
 #  - funding​
 #  - ​investigation
@@ -23,6 +24,7 @@ contributions:
 #  - ​validation
 #  - ​visualization
 #  - writing
-  - review
-  - editing
+#  - review
+#  - editing
+#  - misc
 ---
