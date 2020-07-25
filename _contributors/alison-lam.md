@@ -1,6 +1,6 @@
 ---
 
-name: default  
+name: Alison Lam  
 institution: University of Liverpool, UK
 # links
 orcid:
