@@ -1,7 +1,8 @@
 ---
 # your full display name
 name: Mahmoud Elsherif
-institution: University of Birmingham, UK
+institution:
+  - University of Birmingham, UK
 # links
 orcid: 0000-0002-0540-3998
 github:
