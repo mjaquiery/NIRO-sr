@@ -1,5 +1,4 @@
 ---
-# your full display name
 name: Mahmoud Elsherif
 institution:
   - University of Birmingham, UK
@@ -10,7 +9,6 @@ twitter: @Mams_Elsherif
 email: mahmoud.medhat.elsherif@gmail.com
 website:
 
-# Uncomment to add a badge
 contributions:
 #  - ​conceptualization
 #  - data
