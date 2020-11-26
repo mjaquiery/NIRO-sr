@@ -5,7 +5,7 @@ institution:
 # links
 orcid: 0000-0002-0540-3998
 github:
-twitter: @Mams_Elsherif
+twitter: @MamsMandrill
 email: mahmoud.medhat.elsherif@gmail.com
 website:
 
