@@ -2,7 +2,7 @@
 # your full display name
 name: Jane Smith  
 institution:
-  - University
+  - University of Birmingham, UK
 # links
 orcid:
 github:
@@ -12,13 +12,13 @@ website:
 
 # Uncomment to add a badge
 contributions:
-  - ​conceptualization
-  - data
+#  - ​conceptualization
+#  - data
 #  - analysis
 #  - funding​
 #  - ​investigation
-  - ​methodology
-  - administration​
+#  - ​methodology
+#  - administration​
 #  - ​resources
 #  - ​software
 #  - ​supervision
@@ -27,5 +27,5 @@ contributions:
   - writing
   - review
   - editing
-#  - misc
+  - misc
 ---
