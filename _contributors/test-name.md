@@ -1,6 +1,6 @@
 ---
 # your full display name
-name: Jane Smith  
+name: Mahmoud Elsherif  
 institution:
   - University of Birmingham, UK
 # links
