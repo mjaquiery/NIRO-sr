@@ -1,8 +1,8 @@
 ---
 # your full display name
-name:   Jane Smith (TEST)
+name: Jane Smith  
 institution:
-  - TBC
+  - University
 # links
 orcid:
 github:
@@ -12,20 +12,20 @@ website:
 
 # Uncomment to add a badge
 contributions:
-#  - ​conceptualization
-#  - data
+  - ​conceptualization
+  - data
 #  - analysis
 #  - funding​
 #  - ​investigation
-#  - ​methodology
-#  - administration​
+  - ​methodology
+  - administration​
 #  - ​resources
 #  - ​software
 #  - ​supervision
 #  - ​validation
 #  - ​visualization
-#  - writing
-#  - review
-#  - editing
+  - writing
+  - review
+  - editing
 #  - misc
 ---
