@@ -1,12 +1,12 @@
 ---
 # your full display name
 name: Thomas Rhys Evans
-institution: Coventry University, UK
+institution: University of Greenwich, UK
 # links
 orcid: 0000-0002-6670-0718
 github:
 twitter:
-email: ab6443@coventry.ac.uk
+email:
 website:
 
 contributions:
@@ -22,7 +22,7 @@ contributions:
 #  - ​supervision
 #  - ​validation
 #  - ​visualization
-#  - writing
+  - writing
   - review
   - editing
 ---

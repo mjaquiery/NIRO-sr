@@ -1,22 +1,24 @@
 ---
 # your full display name
-name: David Moreau
-institution: University of Auckland, NZ
+name: Janneke Staaks  
+institution:
+  - University of Amsterdam, The Netherlands
 # links
-orcid: 0000-0002-1957-1941
-github: davidmoreau
-twitter: davidwmoreau
-email: d.moreau@auckland.ac.nz
-website: http://braindynamicslab.com
+orcid: 0000-0001-8406-3989
+github:
+twitter: jstaaks
+email: j.p.c.staaks@uva.nl
+website:
 
+# Uncomment to add a badge
 contributions:
   - ​conceptualization
-#  - data
+  - data
 #  - analysis
 #  - funding​
 #  - ​investigation
-#  - ​methodology
-#  - administration​
+  - ​methodology
+  - administration​
 #  - ​resources
 #  - ​software
 #  - ​supervision
@@ -25,4 +27,5 @@ contributions:
   - writing
   - review
   - editing
+#  - misc
 ---

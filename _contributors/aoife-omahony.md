@@ -11,10 +11,10 @@ website:
 
 contributions:
 #  - ​conceptualization
-#  - data
+  - data
 #  - analysis
 #  - funding​
-  - ​investigation
+#  - ​investigation
 #  - ​methodology
 #  - administration​
 #  - ​resources
@@ -23,7 +23,7 @@ contributions:
 #  - validation
 #  - ​visualization
 #  - writing
-#  - review
-#  - editing
+  - review
+  - editing
   - misc
 ---

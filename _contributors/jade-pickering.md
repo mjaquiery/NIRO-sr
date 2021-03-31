@@ -1,13 +1,13 @@
 ---
 name: Jade Pickering
 institution:
-  - University of York, UK
+  - University of Southampton, UK
   - University of Manchester, UK
 # links
 orcid: 0000-0002-7242-9207
 github: jspickering
 twitter: Jade_Pickering
-email: jade.pickering@manchester.ac.uk; jade.pickering@york.ac.uk
+email: j.s.pickering@soton.ac.uk
 website: http://jade-pickering.com
 
 projectLead: true

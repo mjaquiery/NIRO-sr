@@ -1,13 +1,13 @@
 ---
 name: Olmo van den Akker
 institution:
-  - TBC
+  - Tilburg University, The Netherlands
 # links
-orcid:
+orcid: 0000-0002-0712-3746
 github:
-twitter:
-email:
-website:
+twitter: DenOlmo
+email: ovdakker@gmail.com
+website: ovdakker.com
 
 contributions:
   - ​conceptualization
@@ -22,7 +22,7 @@ contributions:
 #  - supervision
 #  - validation
 #  - ​visualization
-#  - writing
+  - writing
   - review
   - editing
   - misc

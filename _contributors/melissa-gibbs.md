@@ -1,19 +1,19 @@
 ---
 # your full display name
-name: default  
+name: Melissa Gibbs
 institution:
-  - University of Oxford
+  - Lancaster University, UK
 # links
-orcid: 0000-0003-3599-1580
-github: mjaquiery
-twitter: mjaquiery
-email: matt.jaquiery@psy.ox.ac.uk
-website: https://verysmalldreams.com
+orcid:
+github:
+twitter:
+email: m.gibbs@lancaster.ac.uk
+website:
 
 # Uncomment to add a badge
 contributions:
 #  - ​conceptualization
-#  - data
+  - data
 #  - analysis
 #  - funding​
 #  - ​investigation

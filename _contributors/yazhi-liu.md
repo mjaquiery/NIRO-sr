@@ -1,8 +1,8 @@
 ---
-name: Sam Westwood
+# your full display name
+name: Yazhi Liu
 institution:
-  - University of Wolverhampton, UK
-  - King's College London, UK
+  - Lancaster University, UK
 # links
 orcid:
 github:
@@ -10,9 +10,10 @@ twitter:
 email:
 website:
 
+# Uncomment to add a badge
 contributions:
-  - ​conceptualization
-#  - data
+#  - ​conceptualization
+  - data
 #  - analysis
 #  - funding​
 #  - ​investigation
@@ -20,11 +21,11 @@ contributions:
 #  - administration​
 #  - ​resources
 #  - ​software
-  - supervision
-#  - validation
+#  - ​supervision
+#  - ​validation
 #  - ​visualization
-  - writing
-  - review
-  - editing
-  - misc
+#  - writing
+#  - review
+#  - editing
+#  - misc
 ---

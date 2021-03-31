@@ -12,7 +12,7 @@ website:
 # Uncomment to add a badge
 contributions:
 #  - ​conceptualization
-#  - data
+  - data
 #  - analysis
 #  - funding​
 #  - ​investigation
@@ -23,7 +23,7 @@ contributions:
 #  - ​supervision
 #  - ​validation
 #  - ​visualization
-  - writing
+#  - writing
   - review
   - editing
   - misc

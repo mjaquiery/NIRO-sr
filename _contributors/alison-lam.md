@@ -3,10 +3,10 @@
 name: Alison Lam  
 institution: University of Liverpool, UK
 # links
-orcid:
+orcid: 0000-0002-9123-1503
 github:
-twitter:
-email: alison.lam@online.liverpool.ac.uk
+twitter: alisonlightdark
+email: alisonlightdark@gmail.com
 website:
 
 # Uncomment to add a badge

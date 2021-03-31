@@ -1,7 +1,7 @@
 ---
 name: Marissa McBride
 institution:
-  - TBC
+  - Imperial College London
 # links
 orcid:
 github:
